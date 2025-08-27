@@ -28,11 +28,13 @@ Clone the repository and install the dependencies:
 git clone https://github.com/hdia/LLM_PT_Alerts.git
 cd LLM_PT_Alerts
 pip install -r requirements.txt
-
+```
 
 ## Quickstart (using sample data)
 
 Python 3.9+ is recommended.
+
+```bash
 # Run summarisers
 python scripts/summarise_runs.py "data/sample_alerts/mel_*.csv"
 python scripts/summarise_runs.py "data/sample_alerts/seq_*.csv"
@@ -46,7 +48,9 @@ python scripts/validate_outputs.py \
 
 # Compute cross-city averages
 python scripts/compute_averages.py --settings config/settings.yaml
-The data/sample_alerts/ folder contains small anonymised CSVs that demonstrate the workflow without requiring full GTFS datasets. Full datasets are excluded from this repository.
+```
+
+The `data/sample_alerts/` folder contains small anonymised CSVs that demonstrate the workflow without requiring full GTFS datasets. Full datasets are excluded from this repository.
 
 ## Citation
 
@@ -61,6 +65,8 @@ If you use this repository, please cite:
   doi          = {10.5281/zenodo.xxxxxxx},  # update once DOI is minted
   url          = {https://doi.org/10.5281/zenodo.xxxxxxx}
 }
+```
+
 
 ## License
 
