@@ -29,3 +29,6 @@ pip install -r requirements.txt
 # Run summariser (example for Melbourne)
 python scripts/summarise_runs.py "data/sample_alerts/out*_MEL.csv"
 
+### Acknowledgements
+This work was developed as part of research on LLM-assisted multilingual disruption alerts in public transport.  
+
