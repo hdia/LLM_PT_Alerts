@@ -2,9 +2,6 @@
 
 **LLM demonstrator using GTFS-Realtime public transport service alerts**
 
-This repository accompanies the paper:  
-*Large Language Models for Sustainable Transport: Addressing Language Bottlenecks to Advance Equity, Safety, and Low-Emission Mobility* (2025).
-
 The demonstrator processes GTFS-Realtime alerts (train, tram, and bus) and applies large language models (LLMs) to:
 
 - Parse and normalise route identifiers  
