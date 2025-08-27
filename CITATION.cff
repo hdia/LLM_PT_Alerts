@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the following paper and repository."
+title: "LLM_PT_Alerts: LLM Demonstrator using GTFS-Realtime Public Transport Service Alerts"
+authors:
+  - family-names: "Dia"
+    given-names: "Hussein"
+    orcid: "https://orcid.org/0000-0001-8778-7296"  
+version: "1.0.0"
+date-released: 2025-08-28
+url: "https://github.com/hdia/LLM_PT_Alerts"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Dia"
+      given-names: "Hussein"
+  title: "TBC"
+  journal: "TBC"
+  year: TBC
