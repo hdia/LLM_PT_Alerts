@@ -1,0 +1,11 @@
+# Minimal settings used by helper scripts
+paths:
+  mel_glob: "data/sample_alerts/mel_*.csv"
+  seq_glob: "data/sample_alerts/seq_*.csv"
+  syd_glob: "data/sample_alerts/syd_*.csv"
+
+summaries:
+  mel_summary: "results/tables/_runs_summary_MEL.csv"
+  seq_summary: "results/tables/_runs_summary_SEQ.csv"
+  syd_summary: "results/tables/_runs_summary_SYD.csv"
+  averages_out: "results/tables/_runs_summary_AVERAGES.csv"

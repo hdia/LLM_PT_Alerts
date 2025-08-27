@@ -15,6 +15,33 @@ The demonstrator processes GTFS-Realtime alerts (train, tram, and bus) and appli
 - `results/` : Tables and figures generated from demonstrator runs  
 - `requirements.txt` : Python package dependencies  
 
+## Installation
+Clone the repository and install the Python dependencies:
+```bash
+git clone https://github.com/hdia/LLM_PT_Alerts.git
+cd LLM_PT_Alerts
+pip install -r requirements.txt
+
+
+### Quickstart (samples)
+```bash
+# Generate samples (already committed, but reproducible)
+python scripts/make_samples.py --glob "data/full/MEL/alerts_*.csv" --city MEL --rows 80 --count 2
+python scripts/make_samples.py --glob "data/full/SEQ/alerts_*.csv" --city SEQ --rows 80 --count 2
+python scripts/make_samples.py --glob "data/full/SYD/alerts_*.csv" --city SYD --rows 80 --count 2
+
+# Run summarisers (examples)
+python scripts/summarise_runs.py "data/sample_alerts/mel_*.csv"
+python scripts/summarise_runs.py "data/sample_alerts/seq_*.csv"
+python scripts/summarise_runs_syd.py "data/sample_alerts/syd_*.csv"
+
+# Validate outputs
+python scripts/validate_outputs.py results/tables/_runs_summary_MEL.csv results/tables/_runs_summary_SYD.csv results/tables/_runs_summary_SEQ.csv
+
+# Compute cross-city averages
+python scripts/compute_averages.py --settings config/settings.yaml
+
+
 ### Usage
 ```bash
 # Clone repository
