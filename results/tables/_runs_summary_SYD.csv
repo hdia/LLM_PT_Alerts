@@ -1,0 +1,4 @@
+﻿Run ID,Date/Time (local),Alerts processed,Train alerts,Tram/Light rail alerts,Bus alerts,Route names resolved (%)
+syd_sample_1,2025-08-21T12:36:03+10:00,80,18,1,61,75.0
+syd_sample_2,2025-08-21T20:07:30+10:00,80,16,0,64,72.5
+Total,—,160,34,1,125,73.8

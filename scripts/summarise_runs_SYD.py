@@ -4,7 +4,7 @@
 import sys, glob, os, re
 import pandas as pd
 
-ROUTES_TXT = "routes.txt"  # static GTFS routes in working directory
+ROUTES_TXT = "config/routes.txt" # static GTFS routes in working directory
 
 # ---------- Load routes ----------
 def load_routes(routes_path: str):

@@ -1,0 +1,4 @@
+﻿Run ID,Date/Time (local),Alerts processed,Train alerts,Tram/Light rail alerts,Bus alerts,Route names resolved (%)
+mel_sample_1,2025-08-14T12:13:07+10:00,80,11,0,69,100.0
+mel_sample_2,2025-08-14T12:13:07+10:00,80,13,0,67,100.0
+Total,—,160,24,0,136,100.0
